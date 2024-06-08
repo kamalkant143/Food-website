@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --main-color:#fac031;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
