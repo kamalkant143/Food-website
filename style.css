@@ -206,6 +206,8 @@ header .icon i:hover {
   text-align: center;
   font-size: 4rem;
   font-weight: 600;
+  text-transform: capitalize;
+
 }
 
 #menu h2 span {
@@ -354,6 +356,8 @@ header .icon i:hover {
   bottom: 0rem;
   opacity: 0;
   transition: 0.3s;
+  text-transform: capitalize;
+  font-size: 1rem;
 }
 
 #gallary .image-box .box .order:hover button {
@@ -380,4 +384,18 @@ header .icon i:hover {
 #gallary .image-box .box .order:hover {
   opacity: 1;
   top: 0;
+}
+
+/* == review section == */
+
+#review h2{
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+#review h2 span{
+    color: var(--main-color);
+    font-family: mv boli;
 }
