@@ -215,6 +215,7 @@ header .icon i:hover {
   margin: 1rem 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 #menu .box .container {
@@ -224,18 +225,12 @@ header .icon i:hover {
 
 #menu .box .container .image {
   width: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: 0.3s;
 }
 
 #menu .box .container .image img {
   width: 100%;
+  height: 15rem;
 }
-
-#menu .box .container .image:hover img {
-    transform: scale(1.1);
-  }
 
 #menu .box .container .context{
     text-align: center;
