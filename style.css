@@ -28,12 +28,12 @@ header {
   align-items: center;
   padding: 0.4rem 9rem;
   box-shadow: 0 0.1px 4px 0.5px;
-  position:fixed;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1000;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 header .logo img {
@@ -231,8 +231,6 @@ header .icon i:hover {
   width: 100%;
 }
 
-
-
 #menu .box .container .image img {
   width: 100%;
   height: 15rem;
@@ -240,37 +238,34 @@ header .icon i:hover {
   object-fit: cover;
 }
 
-
-
-#menu .box .container .small_card{
-    width: 45px;
-    height: 45px;
-    top: 2rem;
-    right: 0rem;
-    position: absolute;
-    font-size: 1.8rem;
-    color:#000;
-    text-shadow: 0 0 6px #000;
-    transition: 0.5s;
-    opacity: 0;
+#menu .box .container .small_card {
+  width: 45px;
+  height: 45px;
+  top: 2rem;
+  right: 0rem;
+  position: absolute;
+  font-size: 1.8rem;
+  color: #000;
+  text-shadow: 0 0 6px #000;
+  transition: 0.5s;
+  opacity: 0;
 }
 
-#menu .box .container:hover .small_card{
-    transform: translateX(-1rem);
-    opacity: 1;
-    top: 2;
-    right: 0.5rem;
+#menu .box .container:hover .small_card {
+  transform: translateX(-1rem);
+  opacity: 1;
+  top: 2;
+  right: 0.5rem;
 }
 
-#menu .box .container .small_card i{
-    transition: 0.3s;
-    cursor: pointer;
+#menu .box .container .small_card i {
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-#menu .box .container .small_card i:hover{
- color: var(--main-color);
+#menu .box .container .small_card i:hover {
+  color: var(--main-color);
 }
-
 
 #menu .box .container .context {
   text-align: center;
@@ -306,4 +301,83 @@ header .icon i:hover {
   padding: 0.5rem 2rem;
   text-transform: capitalize;
   cursor: pointer;
+}
+
+/* == gallary section == */
+
+#gallary h2 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#gallary h2 span {
+  color: var(--main-color);
+  font-family: mv boli;
+}
+
+#gallary .image-box {
+  margin: 2rem 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+#gallary .image-box .box {
+  width: 100%;
+  position: relative;
+}
+
+#gallary .image-box .box img {
+  width: 100%;
+}
+
+#gallary .image-box .box .order h3 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-top: 0rem;
+  text-align: center;
+}
+
+#gallary .image-box .box .order p {
+  color: #fff;
+  margin: 1.8rem 0;
+  text-align: center;
+}
+
+#gallary .image-box .box .order button {
+  padding: 0.4rem 1.5rem;
+  color: #000;
+  background-color: var(--main-color);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0rem;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#gallary .image-box .box .order:hover button {
+  opacity: 1;
+  bottom: 2.3rem;
+  transform: translateY(0rem);
+}
+
+#gallary .image-box .box .order {
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  top: 0rem;
+  padding: 0 2rem;
+  background-color: #00000074;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#gallary .image-box .box .order:hover {
+  opacity: 1;
+  top: 0;
 }
