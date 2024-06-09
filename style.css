@@ -20,6 +20,8 @@ li {
   list-style: none;
 }
 
+/* == nav bar == */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -66,4 +68,65 @@ header .icon i{
 header .icon i:hover{
     cursor: pointer;
     color: var(--main-color);
+}
+
+/* == hero section == */
+
+#home{
+    display: flex;
+}
+
+#home .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 8rem ;
+    padding-top: 8rem;
+}
+
+#home .left h2{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#home .left h2 span{
+    color: var(--main-color);
+    font-family: mv boli;
+}
+
+#home .left p{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+#home .left button{
+    padding: 0.3rem 1rem;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+#home .left button:hover i{
+    transition: 0.2s;
+}
+
+#home .left button:hover i{
+    transform: translateX(4px);
+}
+
+#home .right{
+    width: 50%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#home .right img{
+    width:90%;
 }
