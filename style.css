@@ -207,7 +207,6 @@ header .icon i:hover {
   font-size: 4rem;
   font-weight: 600;
   text-transform: capitalize;
-
 }
 
 #menu h2 span {
@@ -388,14 +387,163 @@ header .icon i:hover {
 
 /* == review section == */
 
-#review h2{
-    font-size: 4rem;
-    text-transform: capitalize;
-    text-align: center;
-
+#review h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
 }
 
-#review h2 span{
+#review h2 span {
+  color: var(--main-color);
+  font-family: mv boli;
+}
+
+#review .box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 2rem 2rem;
+}
+
+#review .box .review-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+#review .box .review-box .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#review .box .review-box .image img {
+  width: 12rem;
+  border-radius: 50rem;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+#review .box .review-box .image h3 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+#review .box .review-box .image .star {
+  color: var(--main-color);
+  transition: 0.3s;
+}
+
+#review .box .review-box .image .follow {
+  opacity: 0;
+  transition: 0.3s;
+  font-size: 1.2rem;
+}
+
+#review .box .review-box .image .follow i {
+  margin: 0 0.3rem;
+}
+
+#review .box .review-box:hover .image img {
+  transform: translateY(-3rem);
+}
+
+#review .box .review-box:hover .image h3 {
+  transform: translateY(-3rem);
+}
+
+#review .box .review-box:hover .image .star {
+  transform: translateY(-3rem);
+}
+
+#review .box .review-box .image .star i {
+  font-size: 1.2rem;
+}
+
+#review .box .review-box:hover .image .follow {
+  opacity: 1;
+  transform: translateY(-2rem);
+}
+
+#review .box .review-box .context {
+  margin-top: 1rem;
+}
+
+#review .box .review-box .context p {
+  text-align: justify;
+}
+
+/* == order section == */
+
+
+#order h2{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#order h2 span{
     color: var(--main-color);
     font-family: mv boli;
 }
+
+#order .container{
+    display: flex;
+}
+
+#order .container .left{
+    width: 50%;
+    padding: 3rem;
+    text-align: center;
+}
+
+#order .container .left img{
+    width: 80%;
+}
+#order .container .right{
+    /* width: 50%; */
+   margin-top: 10rem;
+}
+
+
+#order .container .right  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#order .container .right  form .input p{
+    line-height: 25px;
+}
+
+#order .container .right form .input{
+    margin: 5px;
+}
+
+#order .container .right  form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+#order .container .right form .input input:focus{
+    border: 2px solid #fac031;
+}
+
+#order .container .right  button{
+    padding: 0.3rem 1rem;
+    background: #fac031;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
