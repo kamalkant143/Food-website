@@ -571,6 +571,7 @@ header .icon i:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
   position:relative;
+  cursor: pointer;
 }
 
 #team .team-box .container img {
@@ -580,12 +581,14 @@ header .icon i:hover {
   object-fit: cover;
   border-radius: 50rem;
   transition: 0.5s;
+  z-index: 1;
 }
 
 #team .team-box .container:hover img{
   width: 15rem;
   transform: translateY(-6rem);
   border-radius: 0.5rem;
+  
 }
 
 #team .team-box .container:hover {
@@ -606,6 +609,12 @@ header .icon i:hover {
   transition: 0.5s;
   transform: translateY(-3rem);
   opacity: 0;
+}
+
+#team .team-box .container .intro h3{
+  color: var(--main-color);
+  text-transform: capitalize;
+  font-size: 1.5rem;
 }
 
 #team .team-box .container:hover .intro{
