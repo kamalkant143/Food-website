@@ -555,21 +555,26 @@ header .icon i:hover {
   font-family: mv boli;
 }
 
+#team .team-box {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 3rem 5rem;
+}
+
 #team .team-box .container {
-  width: 25rem;
-  height: 25rem;
+  width: 18rem;
+  height: 18rem;
   border-radius: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
-
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   transition: 0.4s;
 }
 
 #team .team-box .container img {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   object-position: center;
   object-fit: cover;
   border-radius: 50rem;
