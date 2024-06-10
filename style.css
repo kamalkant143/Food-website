@@ -558,7 +558,7 @@ header .icon i:hover {
 #team .team-box {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  padding: 3rem 5rem;
+  padding: 0rem 2rem;
   margin-top: 3rem;
 }
 
