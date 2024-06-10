@@ -603,5 +603,16 @@ header .icon i:hover {
   position: absolute;
   bottom: 0.5rem;
   text-align: center;
+  transition: 0.5s;
+  transform: translateY(-3rem);
+  opacity: 0;
+}
 
+#team .team-box .container:hover .intro{
+  position: absolute;
+  bottom: 0.5rem;
+  text-align: center;
+  transition: 0.5s;
+  transform: translateY(0rem);
+  opacity: 1;
 }
