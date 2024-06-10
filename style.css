@@ -569,7 +569,8 @@ header .icon i:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  transition: 0.4s;
+  transition: 0.5s ease-in-out;
+  position:relative;
 }
 
 #team .team-box .container img {
@@ -578,12 +579,12 @@ header .icon i:hover {
   object-position: center;
   object-fit: cover;
   border-radius: 50rem;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 #team .team-box .container:hover img{
   width: 15rem;
-  transform: translateY(-5rem);
+  transform: translateY(-6rem);
   border-radius: 0.5rem;
 }
 
@@ -596,4 +597,11 @@ header .icon i:hover {
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   transition: 0.4s;
+}
+
+#team .team-box .container .intro{
+  position: absolute;
+  bottom: 0.5rem;
+  text-align: center;
+
 }
