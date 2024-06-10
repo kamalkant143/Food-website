@@ -547,3 +547,22 @@ header .icon i:hover {
     cursor: pointer;
 }
 
+#team h2{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 4rem;
+}
+
+#team h2 span{
+  color: var(--main-color);
+  font-family: mv boli;
+}
+
+#team .team-box .container img{
+  width: 20rem;
+  height: 20rem;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50rem;
+
+}
