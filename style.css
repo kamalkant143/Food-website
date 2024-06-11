@@ -399,15 +399,21 @@ header .icon i:hover {
 }
 
 #review .box {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  padding: 2rem 2rem;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  /* padding: 2rem 2rem; */
 }
 
 #review .box .review-box {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 1rem;
+  width: 20rem;
+  margin-top: 2rem;
 }
 
 #review .box .review-box .image {
@@ -467,9 +473,6 @@ header .icon i:hover {
   transform: translateY(-2rem);
 }
 
-#review .box .review-box .context {
-  margin-top: 1rem;
-}
 
 #review .box .review-box .context p {
   text-align: justify;
@@ -556,8 +559,6 @@ header .icon i:hover {
 }
 
 #team .team-box {
-  /* display: grid;
-  grid-template-columns: repeat(4,1fr); */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
