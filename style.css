@@ -473,7 +473,6 @@ header .icon i:hover {
   transform: translateY(-2rem);
 }
 
-
 #review .box .review-box .context p {
   text-align: justify;
 }
@@ -577,8 +576,8 @@ header .icon i:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  transition: 0.5s ;
-  position:relative;
+  transition: 0.5s;
+  position: relative;
   cursor: pointer;
 }
 
@@ -592,11 +591,10 @@ header .icon i:hover {
   z-index: 1;
 }
 
-#team .team-box .container:hover img{
+#team .team-box .container:hover img {
   width: 15rem;
   transform: translateY(-6rem);
   border-radius: 0.5rem;
-  
 }
 
 #team .team-box .container:hover {
@@ -609,7 +607,7 @@ header .icon i:hover {
   transition: 0.4s;
 }
 
-#team .team-box .container .intro{
+#team .team-box .container .intro {
   position: absolute;
   bottom: 0.5rem;
   text-align: center;
@@ -618,13 +616,13 @@ header .icon i:hover {
   opacity: 0;
 }
 
-#team .team-box .container .intro h3{
+#team .team-box .container .intro h3 {
   color: var(--main-color);
   text-transform: capitalize;
   font-size: 1.5rem;
 }
 
-#team .team-box .container:hover .intro{
+#team .team-box .container:hover .intro {
   position: absolute;
   bottom: 0.5rem;
   text-align: center;
@@ -633,10 +631,41 @@ header .icon i:hover {
   opacity: 1;
 }
 
-#team .team-box .container .intro .follow{
+#team .team-box .container .intro .follow {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
   padding-top: 0.6rem;
+}
+
+/* == footer section == */
+
+#footer {
+  padding: 1rem 3rem;
+  background-color: #eeeeee;
+}
+
+#footer .box {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 5rem;
+  text-align: center;
+}
+
+#footer .box .content h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+#footer .box .content  p {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#footer .box .content i{
+  display: inline-flex;
+  gap: 0.5rem;
 }
