@@ -1,0 +1,101 @@
+@media (max-width: 1050px) {
+  header {
+    padding: 0.4rem 5rem;
+  }
+
+  #home {
+    margin-top: 3rem;
+  }
+
+  #home .left h2 {
+    font-size: 3rem;
+  }
+
+  #home .left {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+
+  #home .left p {
+    font-size: 1rem;
+  }
+
+  #home .left button {
+    margin-top: 2rem;
+  }
+
+  /* -------------- */
+  #about .about-right h3 {
+    margin: 1rem 0;
+  }
+
+  #about .about-right button {
+    margin-top: 2rem;
+  }
+  /* ---------------- */
+  #menu .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* --------------- */
+  /* #review .box {
+    gap: 1rem;
+    padding: 0rem 1rem;
+} */
+
+#review .box .review-box {
+  
+    width: 15rem;
+}
+
+#review .box .review-box .image img {
+    width: 10rem;
+}
+
+#review .box .review-box .context p {
+    font-size: 0.9rem;
+}
+
+#order .container .left img {
+    width: 100%;
+}
+
+#team .team-box {
+   
+    padding: 2rem 2rem;
+    margin-top: 3rem;
+}
+
+#footer {
+    padding: 1rem 1rem;
+}
+
+
+#footer .box {
+    margin-inline: 2rem;
+  }
+
+  #footer .box .content h2 {
+    font-size: 1.5rem;
+}
+
+#team .team-box .container {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+
+}
+
+@media (max-width: 880px) {
+  header {
+    padding: 0.4rem 2rem;
+  }
+}
