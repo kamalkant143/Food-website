@@ -547,6 +547,8 @@ header .icon i:hover {
   cursor: pointer;
 }
 
+/* == team section == */
+
 #team h2 {
   text-align: center;
   text-transform: capitalize;
@@ -563,8 +565,8 @@ header .icon i:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 1.2rem;
-  padding: 0rem 2rem;
-  margin-top: 4rem;
+  padding: 2rem 2rem;
+  margin-top: 3rem;
 }
 
 #team .team-box .container {
@@ -575,7 +577,7 @@ header .icon i:hover {
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ;
   position:relative;
   cursor: pointer;
 }
@@ -599,7 +601,6 @@ header .icon i:hover {
 
 #team .team-box .container:hover {
   width: 18rem;
-  /* height: 18rem; */
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
@@ -630,4 +631,12 @@ header .icon i:hover {
   transition: 0.5s;
   transform: translateY(0rem);
   opacity: 1;
+}
+
+#team .team-box .container .intro .follow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.6rem;
 }
