@@ -556,10 +556,14 @@ header .icon i:hover {
 }
 
 #team .team-box {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
+  /* display: grid;
+  grid-template-columns: repeat(4,1fr); */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.2rem;
   padding: 0rem 2rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 #team .team-box .container {
