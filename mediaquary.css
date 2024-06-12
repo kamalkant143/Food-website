@@ -43,44 +43,38 @@
     padding: 0rem 1rem;
 } */
 
-#review .box .review-box {
-  
+  #review .box .review-box {
     width: 15rem;
-}
+  }
 
-#review .box .review-box .image img {
+  #review .box .review-box .image img {
     width: 10rem;
-}
+  }
 
-#review .box .review-box .context p {
+  #review .box .review-box .context p {
     font-size: 0.9rem;
-}
+  }
 
-#order .container .left img {
+  #order .container .left img {
     width: 100%;
-}
+  }
 
-#team .team-box {
-   
+  #team .team-box {
     padding: 2rem 2rem;
     margin-top: 3rem;
-}
+  }
 
-#footer {
+  #footer {
     padding: 1rem 1rem;
-}
+  }
 
-
-#footer .box {
+  #footer .box {
     margin-inline: 2rem;
   }
 
   #footer .box .content h2 {
     font-size: 1.5rem;
-}
-
-
-
+  }
 }
 
 @media (max-width: 880px) {
@@ -95,76 +89,173 @@
 
   #about .about-right p {
     font-size: 0.9rem;
-}
+  }
 }
 
-@media (max-width: 780px){
-    header .nav {
-        display: none;
-        
+@media (max-width: 780px) {
+  header .nav {
+    display: none;
+  }
+  header .nav {
+    width: 15rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    gap: 2rem;
+    padding: 4rem 0 0 2rem;
+    background-color: #ffffff;
+
+    transform: translateX(15rem);
+  }
+
+  header .icon i.fa-bars {
+    display: initial;
+  }
+
+  #home .left h2 {
+    font-size: 2.5rem;
+  }
+
+  #about .about-right h2 {
+    font-size: 3.5rem;
+  }
+
+  #menu h2 {
+    font-size: 3.5rem;
+  }
+
+  #menu .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #gallary h2 {
+    font-size: 3.5rem;
+  }
+
+  #review h2 {
+    font-size: 3.5rem;
+  }
+
+  #team h2 {
+    font-size: 3.5rem;
+  }
+
+  #team .team-box {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 670px) {
+  #home .left {
+    padding-left: 1rem;
+    padding-top: 3rem;
+  }
+
+  #home .left h2 {
+    font-size: 2.2rem;
+  }
+
+  #home .left p {
+    font-size: 0.8rem;
+  }
+
+  #about .about-right h2 {
+    font-size: 3rem;
+  }
+
+  #about .about-right h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+  #about .about-right p {
+    font-size: 0.8rem;
+  }
+
+  #gallary .image-box {
+    /* margin: 2rem 3rem;
+        display: grid;
+        gap: 1rem; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #menu h2 {
+    font-size: 3rem;
+  }
+
+  #gallary h2 {
+    font-size: 3rem;
+  }
+
+  #review h2 {
+    font-size: 3rem;
+  }
+
+  #review .box {
+    padding: 0rem 2rem;
+}
+
+  #team h2 {
+    font-size: 3rem;
+  }
+
+  #team .team-box .container {
+    width: 15rem;
+    height: 15rem;
+}
+  #team .team-box .container img {
+    width: 12rem;
+    height: 12rem;
+}
+
+#team .team-box .container:hover img {
+    width: 12rem;
+    transform: translateY(-6rem);
+    border-radius: 0.5rem;
+  }
+  
+  #team .team-box .container:hover {
+    width: 15rem;
+
+  }
+}
+
+@media (max-width: 650px){
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+      }
+
+      #home .right {
+        width: 100%;
     }
-    header .nav {
-        width: 15rem;
-        height: 40rem;
+
+    #home .right img {
+        width: 80%;
+    }
+
+    #home .left {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        position: absolute;
-        right: 0rem;
-        top: 0rem;
-        gap: 2rem;
-        padding: 4rem 0 0 2rem ;
-        background-color:#ffffff ;
-    
-        transform: translateX(15rem);
-      }
-
-      header .icon i.fa-bars{
-        display: initial;
-      }
-      
+        justify-content: center;
+        align-items: flex-start;
+       padding: 1rem;
+    }
     #home .left h2 {
         font-size: 2.5rem;
     }
-    
-    #about .about-right h2 {
-        font-size: 3;
-    
+
+    #home .left p {
+     font-size: 1rem;
     }
 
-    #menu h2 {
-        font-size: 3.5rem;
+    #home .left button {
+        font-size: 1rem;
+        margin-top: 1.2rem;
     }
 
-    #menu .box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #gallary h2 {
-        font-size: 3.5rem;
-    }
-
-    #review h2 {
-        font-size: 3.5rem;
-     
-    }
-
-    #team h2 {
-
-        font-size: 3.5;
-    }
-
-    #team .team-box {
-        padding: 2rem 2rem;
-    }
-}
-
-@media (max-width: 670px){
-    #home .left {
-        padding-left: 1rem;
-        padding-top: 3rem;
-    }
-
-    #home .left h2 {
-        font-size: 2rem;
-    }
 }

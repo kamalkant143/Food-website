@@ -657,6 +657,7 @@ header .icon i:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0.2rem;
   margin-inline: 5rem;
   text-align: center;
 }
