@@ -79,18 +79,7 @@
     font-size: 1.5rem;
 }
 
-#team .team-box .container {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
-    position: relative;
-    cursor: pointer;
-}
+
 
 }
 
@@ -98,4 +87,69 @@
   header {
     padding: 0.4rem 2rem;
   }
+
+  #home .left p {
+    font-size: 0.9rem;
+  }
+  /* ---------- */
+
+  #about .about-right p {
+    font-size: 0.9rem;
+}
+}
+
+@media (max-width: 780px){
+    header .nav {
+        display: none;
+        
+    }
+    header .nav {
+        width: 15rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        gap: 2rem;
+        padding: 4rem 0 0 2rem ;
+        background-color:#ffffff ;
+    
+        transform: translateX(15rem);
+      }
+      
+    #home .left h2 {
+        font-size: 2.5rem;
+    }
+    
+    #about .about-right h2 {
+        font-size: 3;
+    
+    }
+
+    #menu h2 {
+        font-size: 3.5rem;
+    }
+
+    #menu .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #gallary h2 {
+        font-size: 3.5rem;
+    }
+
+    #review h2 {
+        font-size: 3.5rem;
+     
+    }
+
+    #team h2 {
+
+        font-size: 3.5;
+    }
+
+    #team .team-box {
+        padding: 2rem 2rem;
+    }
 }

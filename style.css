@@ -23,6 +23,7 @@ li {
 
 /* == nav bar == */
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -651,6 +652,7 @@ header .icon i:hover {
 #footer .box {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-inline: 5rem;
   text-align: center;
 }
