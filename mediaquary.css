@@ -318,6 +318,10 @@
   #menu .box {
     margin-inline: 1rem;
   }
+
+  #gallary .image-box {
+    grid-template-columns: repeat(1, 1fr);
+}
 }
 
 @media (max-width: 380px) {
@@ -360,9 +364,9 @@
         margin-inline: 0rem;
       }
 
-      #gallary .image-box {
+      /* #gallary .image-box {
         grid-template-columns: repeat(1, 1fr);
-    }
+    } */
 
     #review .box {
         padding: 0rem 1rem;
