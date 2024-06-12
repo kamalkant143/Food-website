@@ -38,6 +38,11 @@ header {
   background-color: #fff;
 }
 
+header .nav.active{
+  transform: translateX(15rem);
+  
+}
+
 header .logo img {
   width: 6rem;
 }
@@ -83,6 +88,8 @@ header .icon i:hover {
   display: flex;
   margin-top: 5rem;
 }
+
+
 
 #home .left {
   width: 50%;

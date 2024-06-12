@@ -96,6 +96,7 @@
   header .nav {
     display: none;
   }
+ 
   header .nav {
     width: 15rem;
     height: 40rem;
@@ -105,11 +106,20 @@
     right: 0rem;
     top: 0rem;
     gap: 2rem;
-    padding: 4rem 0 0 2rem;
+    padding: 5rem 0 0 2rem;
     background-color: #ffffff;
-
     transform: translateX(15rem);
   }
+
+  header .nav .wrong i{
+    position: absolute;
+    top: 2rem;
+    font-size: 1.5rem;
+  }
+  header .nav .wrong i:hover{
+    color: var(--main-color);
+  }
+
 
   header .icon i.fa-bars {
     display: initial;
@@ -296,7 +306,6 @@
 @media (max-width: 500px) {
   #menu .box {
     margin-inline: 5rem;
-    /* grid-template-columns: repeat(1, 1fr); */
   }
   #review .box .review-box {
     width: 18rem;
