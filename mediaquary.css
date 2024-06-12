@@ -321,6 +321,7 @@
 
   #gallary .image-box {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0.3rem;
 }
 }
 
@@ -335,9 +336,9 @@
   #menu .box {
     margin-inline: 1rem;
   }
-  #gallary .image-box {
-    margin: 1rem;
-  }
+  /* #gallary .image-box {
+    margin: rem;
+  } */
 }
 
 @media (max-width: 330px) {
