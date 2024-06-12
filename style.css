@@ -68,6 +68,10 @@ header .icon i {
   transition: 0.3s;
 }
 
+header .icon i.fa-bars{
+  display: none;
+}
+
 header .icon i:hover {
   cursor: pointer;
   color: var(--main-color);
