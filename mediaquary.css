@@ -330,3 +330,13 @@
         margin: 1rem;
     }
 }
+
+@media (max-width: 330px){
+    header .icon {
+        gap: 0.8rem;
+    }
+
+    #menu .box {
+        margin-inline: 1rem;
+    }
+}
