@@ -316,7 +316,17 @@
 }
 
 @media (max-width: 380px){
+    #home .right img {
+        width: 100%;
+    }
     #about .about-left img {
         width: 100%;
+    }
+
+    #menu .box {
+        margin-inline: 1.5rem;
+    }
+    #gallary .image-box {
+        margin: 1rem;
     }
 }
