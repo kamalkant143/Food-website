@@ -316,7 +316,7 @@
 
 @media (max-width: 450px) {
   #menu .box {
-    margin-inline: 3rem;
+    margin-inline: 1rem;
   }
 }
 
@@ -329,7 +329,7 @@
   }
 
   #menu .box {
-    margin-inline: 1.5rem;
+    margin-inline: 1rem;
   }
   #gallary .image-box {
     margin: 1rem;
