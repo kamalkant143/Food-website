@@ -54,6 +54,10 @@ header .nav {
   text-transform: capitalize;
 }
 
+header .nav .wrong i{
+  display: none;
+}
+
 header .nav li a {
   color: #000;
   transition: 0.3s;
