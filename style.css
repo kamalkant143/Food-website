@@ -39,7 +39,7 @@ header {
 }
 
 header .nav.active{
-  transform: translateX(15rem);
+  transform: translateX(0rem);
   
 }
 
