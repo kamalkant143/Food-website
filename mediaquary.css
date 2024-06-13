@@ -90,6 +90,12 @@
   #about .about-right p {
     font-size: 0.9rem;
   }
+
+  .cart-iteams {
+
+    width: 25rem;
+  
+  }
 }
 
 @media (max-width: 780px) {
@@ -231,6 +237,8 @@
   #team .team-box .container:hover {
     width: 15rem;
   }
+
+  
 }
 
 @media (max-width: 650px) {
@@ -303,6 +311,16 @@
   #review .box .review-box {
     width: 12rem;
   }
+
+  .cart-iteams {
+    width: 20rem;
+  }
+  .cart-iteams .main-box {
+    padding: 0.3rem 0.5rem;
+  }
+  .cart-iteams .main-box img {
+    width: 3rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -311,6 +329,15 @@
   }
   #review .box .review-box {
     width: 18rem;
+  }
+  .cart-iteams {
+    width: 18rem;
+  }
+  .cart-iteams .main-box {
+    padding: 0.3rem 0.3rem;
+  }
+  .cart-iteams .main-box img {
+    width: 2.5rem;
   }
 }
 
@@ -323,6 +350,16 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 0.6rem;
 }
+
+.cart-iteams {
+    width: 20rem;
+  }
+  .cart-iteams .main-box {
+    padding: 0.3rem 0.5rem;
+  }
+  .cart-iteams .main-box img {
+    width: 3rem;
+  }
 }
 
 @media (max-width: 380px) {
