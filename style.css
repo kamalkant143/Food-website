@@ -696,14 +696,12 @@ header .icon i:hover {
   width: 30rem;
   background-color: white;
   z-index: 6154;
+  transition: 0.3s;
   transform: translateX(-30rem);
 }
 
 .move-iteam {
   transform: translateX(0rem);
-}
-.remove-iteam{
-  transform: translateX(-30rem);
 }
 
 .cart-iteams .main-box {
