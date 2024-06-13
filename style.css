@@ -86,6 +86,7 @@ header .icon i:hover {
 }
 
 header .icon .number{
+  /* color: var(--main-color); */
 position: absolute;
 top: -1rem;
 right: 0.4rem;
