@@ -23,7 +23,6 @@ li {
 
 /* == nav bar == */
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -38,9 +37,8 @@ header {
   background-color: #fff;
 }
 
-header .nav.active{
+header .nav.active {
   transform: translateX(0rem);
-  
 }
 
 header .logo img {
@@ -54,7 +52,7 @@ header .nav {
   text-transform: capitalize;
 }
 
-header .nav .wrong i{
+header .nav .wrong i {
   display: none;
 }
 
@@ -77,7 +75,7 @@ header .icon i {
   transition: 0.3s;
 }
 
-header .icon i.fa-bars{
+header .icon i.fa-bars {
   display: none;
 }
 
@@ -92,8 +90,6 @@ header .icon i:hover {
   display: flex;
   margin-top: 5rem;
 }
-
-
 
 #home .left {
   width: 50%;
@@ -679,13 +675,62 @@ header .icon i:hover {
   margin-bottom: 1.5rem;
 }
 
-#footer .box .content  p {
+#footer .box .content p {
   text-transform: capitalize;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 
-#footer .box .content i{
+#footer .box .content i {
   display: inline-flex;
   gap: 0.5rem;
+}
+
+/* == card secction == */
+
+.cart-iteams {
+  position: fixed;
+  top: 0rem;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  background-color: white;
+  z-index: 6154;
+  transform: translateX(-30rem);
+}
+
+.move-iteam {
+  transform: translateX(0rem);
+}
+.remove-iteam{
+  transform: translateX(-30rem);
+}
+
+.cart-iteams .main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--main-color);
+}
+
+.cart-iteams .main-box img {
+  width: 4rem;
+}
+
+.cart-iteams .main-box h3 {
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+
+.cart-iteams .main-box .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart-iteams .main-box .add i {
+  cursor: pointer;
 }
