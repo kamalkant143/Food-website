@@ -351,15 +351,18 @@
     margin: 0.6rem;
 }
 
-.cart-iteams {
-    width: 20rem;
+/* .cart-iteams {
+    width: 15rem;
   }
   .cart-iteams .main-box {
-    padding: 0.3rem 0.5rem;
+    padding: 0.2rem 0.2rem;
   }
   .cart-iteams .main-box img {
-    width: 3rem;
+    width: 2rem;
   }
+  .cart-iteams .main-box h3{
+    font-size: 1rem;
+  } */
 }
 
 @media (max-width: 380px) {
