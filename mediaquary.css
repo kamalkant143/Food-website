@@ -164,6 +164,59 @@
   #team .team-box {
     padding: 2rem 2rem;
   }
+
+  
+#team .team-box .container {
+    margin-bottom: 6rem;
+  }
+
+  #team .team-box .container img {
+    width: 15rem;
+    transform: translateY(-6rem);
+    border-radius: 0.5rem;
+  }
+  
+#team .team-box .container {
+    width: 18rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+  }
+  
+  #team .team-box .container .intro {
+    position: absolute;
+    bottom: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(-3rem);
+    opacity: 0;
+  }
+  
+  #team .team-box .container .intro h3 {
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+  
+  #team .team-box .container .intro {
+    position: absolute;
+    bottom: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+  
+  #team .team-box .container .intro .follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.6rem;
+  }
 }
 
 @media (max-width: 670px) {
@@ -339,6 +392,7 @@
   .cart-iteams .main-box img {
     width: 2.5rem;
   }
+
 }
 
 @media (max-width: 450px) {
