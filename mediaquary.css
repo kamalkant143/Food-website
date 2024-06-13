@@ -217,6 +217,29 @@
     gap: 0.5rem;
     padding-top: 0.6rem;
   }
+  #review .box .review-box {
+    margin-top: 3rem;
+}
+  #review .box .review-box .image img {
+    transform: translateY(-3rem);
+  }
+  
+  #review .box .review-box .image h3 {
+    transform: translateY(-3rem);
+  }
+  
+  #review .box .review-box .image .star {
+    transform: translateY(-3rem);
+  }
+  
+  #review .box .review-box .image .star i {
+    font-size: 1.2rem;
+  }
+  
+  #review .box .review-box .image .follow {
+    opacity: 1;
+    transform: translateY(-2rem);
+  }
 }
 
 @media (max-width: 670px) {
