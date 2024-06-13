@@ -704,11 +704,18 @@ header .icon i:hover {
   transform: translateX(0rem);
 }
 
+.cart-iteams h2{
+  text-align: center;
+  color: var(--main-color);
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+
 .cart-iteams .main-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   margin-inline:0.2rem ;
   padding: 0.5rem 1rem;
   border: 2px solid var(--main-color);
