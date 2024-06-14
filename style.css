@@ -512,61 +512,7 @@ font-weight: 800;
   font-family: mv boli;
 }
 
-#order .container {
-  display: flex;
-}
-
-#order .container .left {
-  width: 50%;
-  padding: 3rem;
-  text-align: center;
-}
-
-#order .container .left img {
-  width: 80%;
-}
-#order .container .right {
-  /* width: 50%; */
-  margin-top: 10rem;
-}
-
-#order .container .right form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#order .container .right form .input p {
-  line-height: 25px;
-}
-
-#order .container .right form .input {
-  margin: 5px;
-}
-
-#order .container .right form .input input {
-  width: 300px;
-  height: 35px;
-  padding: 0 10px;
-  border: 2px solid #cccccc;
-  background: #eeeeee;
-  outline: none;
-  border-radius: 3px;
-}
-
-#order .container .right form .input input:focus {
-  border: 2px solid #fac031;
-}
-
-#order .container .right button {
-  padding: 0.3rem 1rem;
-  background: #fac031;
-  color: white;
-  margin-top: 20px;
-  border: none;
-  text-transform: capitalize;
-  cursor: pointer;
-}
+#order
 
 /* == team section == */
 
