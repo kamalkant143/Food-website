@@ -133,6 +133,13 @@
     display: initial;
   }
 
+  header .icon .number{
+   
+    right: 2.5rem;
+
+    }
+    
+
   #home .left h2 {
     font-size: 2.5rem;
   }
