@@ -247,6 +247,8 @@
     opacity: 1;
     transform: translateY(-2rem);
   }
+
+  
 }
 
 @media (max-width: 670px) {
@@ -381,6 +383,16 @@
   #about .about-right button {
     font-size: 1rem;
     margin-top: 1rem;
+  }
+
+  #order .container .right{
+    align-items: flex-start;
+    padding-left: 2rem;
+  }
+  #order .container .right .box {
+   
+    width: 80%;
+  
   }
 }
 

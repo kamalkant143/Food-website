@@ -500,6 +500,11 @@ font-weight: 800;
 }
 
 /* == order section == */
+#order{
+  background-image: url(image/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #order h2 {
   font-size: 4rem;
@@ -514,7 +519,6 @@ font-weight: 800;
 
 #order .container{
   display: flex;
-  /* justify-content:center; */
   align-items: center;
 }
 
@@ -527,7 +531,6 @@ font-weight: 800;
 
 #order .container .right{
   width: 50%;
-  padding-left: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
