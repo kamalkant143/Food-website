@@ -416,6 +416,15 @@
   .cart-iteams .main-box img {
     width: 3rem;
   }
+
+  
+#gallary .image-box .box .order:hover button {
+   display: none;
+  }
+
+  #gallary .image-box .box .order {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
