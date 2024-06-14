@@ -316,8 +316,7 @@
 
   #order h2 {
     font-size: 3rem;
-    
-}
+  }
 
   #order .container {
     flex-direction: column;
@@ -417,13 +416,26 @@
     width: 3rem;
   }
 
-  
-#gallary .image-box .box .order:hover button {
-   display: none;
+  #menu .box .container .small_card {
+    text-shadow: 0 0 6px var(--main-color);
+  }
+
+  #gallary .image-box .box .order button {
+    display: none;
   }
 
   #gallary .image-box .box .order {
     display: none;
+  }
+
+  #menu .box .container .small_card {
+    opacity: 1;
+    top: 1rem;
+    right: 0.5rem;
+  }
+
+  #menu .box .container .small_card i {
+    color: var(--main-color);
   }
 }
 
@@ -443,12 +455,10 @@
   .cart-iteams .main-box img {
     width: 2.5rem;
   }
-  
+
   #order h2 {
     font-size: 2.5rem;
-    
-}
-
+  }
 }
 
 @media (max-width: 450px) {
