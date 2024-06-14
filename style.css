@@ -512,7 +512,42 @@ font-weight: 800;
   font-family: mv boli;
 }
 
-#order
+#order .container{
+  display: flex;
+  /* justify-content:center; */
+  align-items: center;
+}
+
+#order .container .left{
+  width: 50%;
+}
+#order .container .left img{
+  width: 100%;
+}
+
+#order .container .right{
+  width: 50%;
+  padding-left: 5rem;
+}
+
+#order .container .right .box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+
+label{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+#order .container .right .box input{
+  background-color: #eeeeee;
+  border: none;
+  border: 1px solid #cccccc;
+  padding: 0.3rem 0.5rem;
+}
 
 /* == team section == */
 
