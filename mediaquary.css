@@ -114,6 +114,7 @@
     background-color: #ffffff;
     transform: translateX(15rem);
     transition: 0.3s;
+    z-index: 5845;
   }
 
   header .nav .wrong i {
