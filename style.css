@@ -348,6 +348,7 @@ font-weight: 800;
 }
 
 #menu .box .container .context button:hover{
+  color: #000;
   background-color: var(--main-color);
 }
 
