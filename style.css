@@ -447,14 +447,12 @@ font-weight: 800;
 }
 
 #review .box {
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-  /* padding: 2rem 2rem; */
 }
 
 #review .box .review-box {
@@ -462,6 +460,7 @@ font-weight: 800;
   padding: 1rem;
   width: 20rem;
   margin-top: 2rem;
+  cursor: pointer;
 }
 
 #review .box .review-box .image {
