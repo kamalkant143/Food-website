@@ -56,14 +56,31 @@ header .nav .wrong i {
   display: none;
 }
 
+header .nav li {
+  position: relative;
+  transition: 0.3s;
+
+}
 header .nav li a {
   color: #000;
   transition: 0.3s;
+
 }
 
 header .nav li a:hover {
   color: var(--main-color);
 }
+
+header .nav li a:hover:before{
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 3rem;
+  height: 0.2rem;
+  background-color:var(--main-color);
+  animation: move 1.3s linear 0.4s infinite alternate;
+}
+
 
 header .icon {
   display: flex;
